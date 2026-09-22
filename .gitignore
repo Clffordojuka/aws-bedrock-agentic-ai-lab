@@ -1,0 +1,36 @@
+# Environment and credential files (SENSITIVE)
+env.sh
+setup_env.sh
+check_env.sh
+*.env
+.env
+credentials
+aws_credentials.txt
+*.pem
+*.key
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data files
+*.parquet
+*.db
+data/*.csv
